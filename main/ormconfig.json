@@ -1,0 +1,14 @@
+{
+    "type": "mongodb",
+    "host": "localhost",
+    "port": "2717",
+    "database": "microrabit",
+    "entities": [
+        "src/entity/*.js"
+    ],
+    "cli": {
+        "entitiesDir": "src/entity"
+    },
+    "logging": false,
+    "synchronize": true
+}
